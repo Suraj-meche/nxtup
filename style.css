@@ -113,3 +113,42 @@ a:hover {
 #check {
     display: none;
 }
+.th{
+    margin-left: 47% ;
+    margin-top: 16%;
+    color: aliceblue;
+    
+}
+.th h1{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.th h2{
+    font-size: 20px;
+    margin: 5px;
+}
+img{ 
+    margin-left: 34%;
+    margin-top: -10.4%;
+    display: flex;
+    transition: 1s;
+}
+img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s;
+    transform: scale(2);
+}
+@media screen and (max-width: 600px){
+    img{
+        opacity: 0;
+        
+    }
+    img:hover{
+        opacity: 0;
+        transition: none;
+        transform: none;
+        cursor: default;
+    }
+    
+}
