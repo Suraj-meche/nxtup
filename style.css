@@ -130,7 +130,6 @@ a:hover {
 img{ 
     margin-left: 34%;
     margin-top: -10.4%;
-    display: flex;
     transition: 1s;
 }
 img:hover{
@@ -143,15 +142,16 @@ img:hover{
 
     h1{
         font-size: 30px;
+
     }
     h2{
         font-size: 18px;
     }
 img{
-    width: 150px;
-    height: 150px;
-    margin-left: 40px;
-    margin-top: -40%;
+    width: 200px;
+    height: 200px;
+    margin-left: -0.000000000000000000000000000000000000000000000000000000000000000000000000000000001%;
+    margin-top: -20%;
 }
     
     
