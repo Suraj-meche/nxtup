@@ -140,15 +140,26 @@ img:hover{
     transform: scale(2);
 }
 @media screen and (max-width: 1280px){
+    
     img{
         opacity: 0;
-        
     }
     img:hover{
         opacity: 0;
         transition: none;
         transform: none;
         cursor: default;
+    }
+    .su{
+        text-align: center;
+        display: flex;
+        
+    }
+    .su h1{
+        font-size: 30px;
+    }
+    .su h2{
+        font-size: 18px;
     }
     
 }
